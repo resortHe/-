@@ -1,0 +1,62 @@
+{
+  "id": "1e55895c-93e5-46c2-87c1-0ab91109a60c",
+  "brand": "Apple",
+  "name": "Macbook pro",
+  "cpu": {
+    "brand": "AMD",
+    "name": "Ryzen 3 PRO 3200GE",
+    "number_cores": 8,
+    "number_threads": 12,
+    "min_ghz": 3.4580151656590217,
+    "max_ghz": 4.470970802895625
+  },
+  "ram": {
+    "value": "38",
+    "unit": "GIGABYTE"
+  },
+  "gpus": [
+    {
+      "brand": "NVIDIA",
+      "name": "GTX 1660-Ti",
+      "min_ghz": 1.3319763887451335,
+      "max_ghz": 1.992641179793409,
+      "memory": {
+        "value": "5",
+        "unit": "GIGABYTE"
+      }
+    }
+  ],
+  "storages": [
+    {
+      "driver": "HDD",
+      "memory": {
+        "value": "1",
+        "unit": "TERABYTE"
+      }
+    },
+    {
+      "driver": "SSD",
+      "memory": {
+        "value": "153",
+        "unit": "GIGABYTE"
+      }
+    }
+  ],
+  "screen": {
+    "size_inch": 14.598816,
+    "resolution": {
+      "width": 5664,
+      "height": 3186
+    },
+    "panel": "OLED",
+    "multitouch": false
+  },
+  "keyboard": {
+    "layout": "QWERTZ",
+    "backlit": false
+  },
+  "weight_kg": 1.6970572325029587,
+  "price_usd": 2890.3377500962724,
+  "release_year": 2019,
+  "update_at": "2023-07-15T07:47:09.982454Z"
+}
