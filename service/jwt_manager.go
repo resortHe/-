@@ -34,7 +34,7 @@ func (manager *JwtManager) Generate(user *User) (string, error) {
 	}
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
 
-	return token.SignedString(manager.secretKey)
+	return token.SignedString([]byte(manager.secretKey))
 }
 
 func (manager *JwtManager) Verify(accessToken string) (*UserClaims, error) {
